@@ -9,10 +9,14 @@ namespace MathTest
         [TestMethod]
         public void TestAdd()
         {
+
+
             MathCalculations math = new MathCalculations();
             double result = math.Calculate(4, 1, "Add");
             Assert.AreEqual(5, result); 
+
         }
+
 
         [TestMethod]
         public void TestSubtract()

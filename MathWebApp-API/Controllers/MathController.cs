@@ -15,6 +15,8 @@ namespace MathWebApp_API.Controllers
         [HttpGet]
         public double? Add(int lVal, int rVal)
         {
+
+
             //CROS is basically allowing the content to share explicitly between different origins.
             Response.Headers.Add("Access-Control-Allow-Origin", "https://localhost:44301");
 
